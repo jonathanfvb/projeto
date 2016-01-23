@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------------------
+DEPARTAMENTO		|CATEGORIA					|MARCA			|MODELO
+-------------------------------------------------------------------------------------------
+Telefonia			|Celular/Smartphone			|Samsung		|Galaxy S5
+Telefonia			|Celular/Smartphone			|Samsung		|Galaxy S5 Mini
+Telefonia			|Celular/Smartphone			|Samsung		|Galaxy 4
+Telefonia			|Geladeira/Refrigerador		|Consul			|Frost Free Duplex CRM33EB
+Eletrodomésticos	|Frigobar					|Consul			|CRC 12
+Eletrodomésticos	|Geladeira/Refrigerador		|Consul			|Frost Free CRB36
+Eletrodomésticos	|Geladeira/Refrigerador		|Electrolux		|Frost Free Duplex DW42X
+Eletrodomésticos	|Geladeira/Refrigerador		|Electrolux		|Frost Free RFE39
+Eletrodomésticos	|Lavadora de Roupas			|Brastemp		|Ative BWL09B
+Eletrodomésticos	|Lavadora de Roupas			|Brastemp		|Clean BWC08
+Eletrodomésticos	|Panela Elétrica			|Philips		|RI3103
+Móveis				|Cama Box					|Castor			|Comfort
+
+Exemplo de Cadastro - Wizard:
+
+1. CATEGORIA - Informe o que é o seu produto.
+Ex: Celular, Geladeira, Notebook, etc.
+
+2. MARCA - Informe a marca do produto.
+Ex: Samsung, Consul, Dell, etc.
+
+3. MODELO - Informe o modelo do produto.
+Ex: S5 Mini, Frost Free Duplex, Inspiron, etc.
+(Se não souber ou não quiser especificar o modelo deixe em branco)
+
+4. WEBINDICAÇÃO - Confirme os dados do produto e WebIndique.
+Se os dados estiverem corretos você já pode WebIndicar.
+Ou clique em Voltar para corrigir os dados.
+
+5. FINALIZAÇÃO
+Obrigado pela sua WebIndicação.
+Assim que sua WebIndicação for aprovada você receberá uma notificação por e-mail.
+Também é possível acompanhar suas WebIndicações através de seu perfil clicando aqui.

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste</title>
+
+	<!-- Bootstrap -->
+	<link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+	
+	<style>
+	body {
+		min-height: 2000px;
+		padding-top: 70px;
+	}
+	.circle {
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 50%;
+		width: 100%;
+		position: relative;
+	}
+	.circle-border {
+		border: 1px solid #CCCCCC;
+	}
+	.circle-solid{
+		background-color: whitesmoke;
+	}
+	.circle:before {
+		content: "";
+		display: block;
+		padding-top: 100%;
+	}
+	.circle-inner {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		text-align: center;
+	}
+	.score-text {
+		margin: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		height: 1em;
+		line-height: 1em;
+		font-size: 3em;
+	}
+	</style>
+</head>
+<body>
+
+	<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5 col-xs-6 col-xs-offset-3">
+								<div class="circle bg-primary">
+									<div class="circle-inner">
+										<div class="score-text">SG</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<h3 class="text-center text-muted">Samsung Galaxy S6</h3>
+						<h4 class="text-center text-muted"><small>Smartphone</small></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div> <!-- /container -->
+
+</body>
+</html>

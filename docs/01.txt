@@ -1,0 +1,5 @@
+* exibir resultado da busca em tabela, agrupando por categoria, ex.: celular, smart tv:
+	- produto (modelo)
+	- WI Positivas
+	- WI Negativas
+	- Link par WI
